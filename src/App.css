@@ -1,0 +1,99 @@
+body {
+  background-color: #314355;
+}
+
+.App {
+  text-align: center;
+  background-color: #cdddee;
+}
+
+.recipe-card {
+  border: 1px solid #f8b400;
+  transition: transform 0.4s;
+  width: 75%;  /* Increase the width to fit more content */
+  height: 5%;  /* Reduce the height to see all content */
+  margin:0 auto;  /* Center the card */
+}
+
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-card .card-title {
+  color: #d9534f;
+}
+
+.recipe-card .btn-primary {
+  background-color: #f8b400;
+  border-color: #f8b400;
+}
+
+.recipe-card .btn-primary:hover {
+  background-color: #d9534f;
+  border-color: #d9534f;
+}
+
+.navbar-dark .navbar-brand {
+  color: #f8b400;
+}
+
+.card {
+  margin: 0px;  /* Reduce the margin */
+}
+
+.card-title {
+  font-size: 1.2rem;  /* Reduce font size */
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.7rem;  /* Reduce font size */
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.Card {
+  margin-bottom: 5px;  /* Reduce the margin */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
