@@ -10,7 +10,7 @@ Features:
 
 Technology Stack:
 
-1
+
 1) Frontend: ReactJS, React Router
 2) Styling: CSS3, Bootstrap
 3) API: RESTful API for recipe data
